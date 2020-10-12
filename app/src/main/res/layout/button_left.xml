@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/buttons_right"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/button_g_space">
+
+    <Button
+        android:id="@+id/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/button_space"
+        android:background="@drawable/view_frame"
+        android:text="@string/black"
+        android:textColor="@color/white_text" />
+
+    <Button
+        android:id="@+id/brown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/button_space"
+        android:background="@drawable/view_frame"
+        android:text="@string/brown"
+        android:textColor="@color/white_text" />
+
+    <Button
+        android:id="@+id/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/button_space"
+        android:background="@drawable/view_frame"
+        android:text="@string/red"
+        android:textColor="@color/white_text" />
+
+    <Button
+        android:id="@+id/orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/button_space"
+        android:background="@drawable/view_frame"
+        android:text="@string/orange"
+        android:textColor="@color/white_text" />
+
+    <Button
+        android:id="@+id/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/button_space"
+        android:background="@drawable/view_frame"
+        android:text="@string/yellow"
+        android:textColor="@color/white_text" />
+
+
+</LinearLayout>

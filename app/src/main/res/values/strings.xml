@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cocolator</string>
+    <string name="black">BLACK</string>
+    <string name="empty">\?</string>
+    <string name="brown">BROWN</string>
+    <string name="red">RED</string>
+    <string name="orange">ORANGE</string>
+    <string name="yellow">YELLOW</string>
+    <string name="green">GREEN</string>
+    <string name="blue">BLUE</string>
+    <string name="purple">PURPLE</string>
+    <string name="gray">GRAY</string>
+    <string name="white">WHITE</string>
+</resources>

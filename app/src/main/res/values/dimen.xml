@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ribbon_width">40dp</dimen>
+    <dimen name="ribbon_height">80dp</dimen>
+    <dimen name="ribbon_space">8dp</dimen>
+    <dimen name="ribbon_thickness">2dp</dimen>
+
+    <!--    BUTTON PROPERTY-->
+    <dimen name="button_space">10dp</dimen>
+
+    <!--    BUTTON GROUP's PROPERTIES-->
+    <dimen name="button_g_space">20dp</dimen>
+</resources>
