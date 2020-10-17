@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@+id/ribbons_view"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ribbons_view"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
     <TextView
+        android:text="@string/_1"
+        android:textColor="#00000000"
         android:id="@+id/first_ribbon"
         android:layout_width="@dimen/ribbon_width"
         android:layout_height="@dimen/ribbon_height"
@@ -12,6 +14,8 @@
         android:background="@drawable/view_frame" />
 
     <TextView
+        android:text="@string/_1"
+        android:textColor="#00000000"
         android:id="@+id/second_ribbon"
         android:layout_width="@dimen/ribbon_width"
         android:layout_height="@dimen/ribbon_height"
@@ -19,6 +23,8 @@
         android:background="@drawable/view_frame" />
 
     <TextView
+        android:text="@string/_1"
+        android:textColor="#00000000"
         android:id="@+id/third_ribbon"
         android:layout_width="@dimen/ribbon_width"
         android:layout_height="@dimen/ribbon_height"
@@ -27,6 +33,8 @@
 
 
     <TextView
+        android:text="@string/_1"
+        android:textColor="#00000000"
         android:id="@+id/fourth_ribbon"
         android:layout_width="@dimen/ribbon_width"
         android:layout_height="@dimen/ribbon_height"
@@ -35,17 +43,23 @@
 
 
     <TextView
+        android:text="@string/_1"
+        android:textColor="#00000000"
         android:id="@+id/fifth_ribbon"
         android:layout_width="@dimen/ribbon_width"
         android:layout_height="@dimen/ribbon_height"
         android:layout_marginEnd="@dimen/ribbon_space"
-        android:background="@drawable/view_frame" />
+        android:background="@drawable/view_frame"
+        android:visibility="gone" />
 
 
     <TextView
+        android:text="@string/_1"
+        android:textColor="#00000000"
         android:id="@+id/sixth_ribbon"
         android:layout_width="@dimen/ribbon_width"
         android:layout_height="@dimen/ribbon_height"
         android:layout_marginEnd="@dimen/ribbon_space"
-        android:background="@drawable/view_frame" />
+        android:background="@drawable/view_frame"
+        android:visibility="gone" />
 </LinearLayout>

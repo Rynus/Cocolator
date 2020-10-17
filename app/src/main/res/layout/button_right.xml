@@ -49,6 +49,15 @@
         android:layout_marginBottom="@dimen/button_space"
         android:background="@drawable/view_frame"
         android:text="@string/white"
+        android:textColor="@color/black_text" />
+
+    <Button
+        android:id="@+id/gold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/button_space"
+        android:background="@drawable/view_frame"
+        android:text="@string/gold"
         android:textColor="@color/white_text" />
 
 

@@ -6,5 +6,22 @@
 
 
     <!--    TEXT PROPERTY-->
-    <color name="white_text">#000000</color>
+    <color name="white_text">#FFFFFF</color>
+
+    <!--    Button Color-->
+    <color name="black">#000000</color>
+    <color name="brown">#514223</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#CF8313</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="green">#4CAF50</color>
+    <color name="blue">#3F51B5</color>
+    <color name="purple">#9C27B0</color>
+    <color name="gray">#616060</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black_text">#000000</color>
+
+    <!--    transparent-->
+
+
 </resources>

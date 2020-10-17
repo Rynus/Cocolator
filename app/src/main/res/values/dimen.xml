@@ -9,5 +9,9 @@
     <dimen name="button_space">10dp</dimen>
 
     <!--    BUTTON GROUP's PROPERTIES-->
-    <dimen name="button_g_space">20dp</dimen>
+    <dimen name="button_g_space">10dp</dimen>
+
+    <!--    BUTTON NEX ?-->
+    <dimen name="nex_height">50dp</dimen>
+    <dimen name="nex_width">50dp</dimen>
 </resources>

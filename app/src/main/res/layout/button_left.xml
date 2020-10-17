@@ -51,5 +51,14 @@
         android:text="@string/yellow"
         android:textColor="@color/white_text" />
 
+    <Button
+        android:id="@+id/silver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/view_frame"
+        android:text="@string/silver"
+        android:layout_marginBottom="@dimen/button_space"
+        android:textColor="@color/white_text" />
+
 
 </LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <com.nex3z.togglebuttongroup.SingleSelectToggleGroup
+        android:id="@+id/ribbon_group"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/ribbon_mode_4"
+        app:tbgChildSpacing="@dimen/button_space">
+
+        <com.nex3z.togglebuttongroup.button.CircularToggle
+            android:id="@+id/ribbon_mode_4"
+            android:layout_width="@dimen/nex_width"
+            android:layout_height="@dimen/nex_height"
+            android:text="@string/_4" />
+
+        <com.nex3z.togglebuttongroup.button.CircularToggle
+            android:id="@+id/ribbon_mode_5"
+            android:layout_width="@dimen/nex_width"
+            android:layout_height="@dimen/nex_height"
+            android:text="@string/_5" />
+
+        <com.nex3z.togglebuttongroup.button.CircularToggle
+            android:id="@+id/ribbon_mode_6"
+            android:layout_width="@dimen/nex_width"
+            android:layout_height="@dimen/nex_height"
+            android:text="@string/_6" />
+    </com.nex3z.togglebuttongroup.SingleSelectToggleGroup>
+</LinearLayout>
