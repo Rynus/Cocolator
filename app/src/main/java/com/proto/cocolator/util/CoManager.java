@@ -38,20 +38,7 @@ public class CoManager {
         this.ribbons = ribbons;
     }
 
-    public void buttonSetUp() {
-        colorButton[0].setBackgroundColor(RiCol.BLACK);
-        colorButton[1].setBackgroundColor(RiCol.BROWN);
-        colorButton[2].setBackgroundColor(RiCol.RED);
-        colorButton[3].setBackgroundColor(RiCol.ORANGE);
-        colorButton[4].setBackgroundColor(RiCol.YELLOW);
-        colorButton[5].setBackgroundColor(RiCol.GREEN);
-        colorButton[6].setBackgroundColor(RiCol.BLUE);
-        colorButton[7].setBackgroundColor(RiCol.PURPLE);
-        colorButton[8].setBackgroundColor(RiCol.GRAY);
-        colorButton[9].setBackgroundColor(RiCol.WHITE);
-        colorButton[10].setBackgroundColor(RiCol.SILVER);
-        colorButton[11].setBackgroundColor(RiCol.GOLD);
-    }
+
 
     public void ribbonSetUp() {
         group.setOnCheckedChangeListener(new SingleSelectToggleGroup.OnCheckedChangeListener() {
@@ -60,7 +47,7 @@ public class CoManager {
                 switch (group.getCheckedId()) {
                     case R.id.ribbon_mode_4:
                         ribbon1.setBackground(res);
-                        ribbon2.setBackground(res);    // this is just for activity class :'
+                        ribbon2.setBackground(res);
                         ribbon3.setBackground(res);
                         ribbon4.setBackground(res);
                         ribbon5.setVisibility(View.GONE);

@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     List<TextView> ribbons;
 
-    //    Button declaration
     Button black;
     Button brown;
     Button red;
@@ -53,6 +52,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         ribbon_mode = findViewById(R.id.ribbon_group);
 
@@ -85,12 +85,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         gold = findViewById(R.id.gold);
 
 
-        res = ResourcesCompat.getDrawable(getResources(), R.drawable.view_frame, null);
+        res = ResourcesCompat.getDrawable(getResources(), R.drawable.view_frame_transparent, null);
 
         Button[] colButton = new Button[]{black, brown, red, orange, yellow, green, blue, purple, gray, white, silver, gold};
         manager = new CoManager(res, C, ribbon_mode, first_ribbon, second_ribbon, third_ribbon, fourth_ribbon, fifth_ribbon, sixth_ribbon, colButton, ribbons);
         manager.ribbonSetUp();
-        manager.buttonSetUp();
+
 
         black.setOnClickListener(this);
         brown.setOnClickListener(this);
@@ -104,12 +104,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         white.setOnClickListener(this);
         silver.setOnClickListener(this);
         gold.setOnClickListener(this);
-
+        silver.setClickable(false);
+        silver.setClickable(false);
     }
 
     @Override
     public void onClick(View v) {
         int ribbonColour = 0;
+
         short code = 0;
         switch (v.getId()) {
             case R.id.black:
@@ -180,6 +182,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     break;
             }
         }
+
+        silver.setClickable((C < (ribbons.size() - 2)));
+        gold.setClickable((C < (ribbons.size() - 2)));
+
         C++;
     }
 

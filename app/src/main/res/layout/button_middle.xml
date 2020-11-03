@@ -1,46 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/buttons_right"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="@dimen/button_g_space">
+    android:padding="10dp">
 
     <Button
-        android:id="@+id/black"
+        android:id="@+id/yellow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/button_space"
-        android:background="@drawable/view_frame_black"
-        android:text="@string/black"
+        android:background="@drawable/view_frame_yellow"
+        android:text="@string/yellow"
         android:textColor="@color/white_text" />
 
     <Button
-        android:id="@+id/brown"
+        android:id="@+id/green"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/button_space"
-        android:background="@drawable/view_frame_brown"
-        android:text="@string/brown"
+        android:background="@drawable/view_frame_green"
+        android:text="@string/green"
         android:textColor="@color/white_text" />
 
     <Button
-        android:id="@+id/red"
+        android:id="@+id/blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/button_space"
-        android:background="@drawable/view_frame_red"
-        android:text="@string/red"
+        android:background="@drawable/view_frame_blue"
+        android:text="@string/blue"
         android:textColor="@color/white_text" />
 
     <Button
-        android:id="@+id/orange"
+        android:id="@+id/purple"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/button_space"
-        android:background="@drawable/view_frame_orange"
-        android:text="@string/orange"
+        android:background="@drawable/view_frame_purple"
+        android:text="@string/purple"
         android:textColor="@color/white_text" />
-
 
 </LinearLayout>

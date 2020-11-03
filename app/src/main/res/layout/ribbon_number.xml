@@ -7,11 +7,10 @@
 
     <com.nex3z.togglebuttongroup.SingleSelectToggleGroup
         android:id="@+id/ribbon_group"
-        android:padding="10dp"
+        android:padding="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:checkedButton="@id/ribbon_mode_4"
-        app:tbgChildSpacing="@dimen/button_space">
+        android:checkedButton="@id/ribbon_mode_4">
 
         <com.nex3z.togglebuttongroup.button.CircularToggle
             android:id="@+id/ribbon_mode_4"
@@ -23,7 +22,9 @@
             android:id="@+id/ribbon_mode_5"
             android:layout_width="@dimen/nex_width"
             android:layout_height="@dimen/nex_height"
-            android:text="@string/_5" />
+            android:text="@string/_5"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp" />
 
         <com.nex3z.togglebuttongroup.button.CircularToggle
             android:id="@+id/ribbon_mode_6"

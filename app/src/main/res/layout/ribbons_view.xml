@@ -2,64 +2,84 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/ribbons_view"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
 
-    <TextView
-        android:text="@string/_1"
-        android:textColor="#00000000"
-        android:id="@+id/first_ribbon"
-        android:layout_width="@dimen/ribbon_width"
-        android:layout_height="@dimen/ribbon_height"
-        android:layout_marginEnd="@dimen/ribbon_space"
-        android:background="@drawable/view_frame" />
+    <View
+        android:layout_width="100dp"
+        android:layout_height="10dp"
+        android:background="#817E83" />
 
-    <TextView
-        android:text="@string/_1"
-        android:textColor="#00000000"
-        android:id="@+id/second_ribbon"
-        android:layout_width="@dimen/ribbon_width"
-        android:layout_height="@dimen/ribbon_height"
-        android:layout_marginEnd="@dimen/ribbon_space"
-        android:background="@drawable/view_frame" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FDF39B"
+        android:orientation="horizontal">
 
-    <TextView
-        android:text="@string/_1"
-        android:textColor="#00000000"
-        android:id="@+id/third_ribbon"
-        android:layout_width="@dimen/ribbon_width"
-        android:layout_height="@dimen/ribbon_height"
-        android:layout_marginEnd="@dimen/ribbon_space"
-        android:background="@drawable/view_frame" />
+        <TextView
+            android:id="@+id/first_ribbon"
+            android:layout_width="@dimen/ribbon_width"
+            android:layout_height="@dimen/ribbon_height"
+            android:layout_marginStart="@dimen/ribbon_space"
+            android:layout_marginEnd="@dimen/ribbon_space"
+            android:background="@drawable/view_frame_transparent"
+            android:text="@string/_1"
+            android:textColor="#00000000" />
 
+        <TextView
+            android:id="@+id/second_ribbon"
+            android:layout_width="@dimen/ribbon_width"
+            android:layout_height="@dimen/ribbon_height"
+            android:layout_marginEnd="@dimen/ribbon_space"
+            android:background="@drawable/view_frame_transparent"
+            android:text="@string/_1"
+            android:textColor="#00000000" />
 
-    <TextView
-        android:text="@string/_1"
-        android:textColor="#00000000"
-        android:id="@+id/fourth_ribbon"
-        android:layout_width="@dimen/ribbon_width"
-        android:layout_height="@dimen/ribbon_height"
-        android:layout_marginEnd="@dimen/ribbon_space"
-        android:background="@drawable/view_frame" />
-
-
-    <TextView
-        android:text="@string/_1"
-        android:textColor="#00000000"
-        android:id="@+id/fifth_ribbon"
-        android:layout_width="@dimen/ribbon_width"
-        android:layout_height="@dimen/ribbon_height"
-        android:layout_marginEnd="@dimen/ribbon_space"
-        android:background="@drawable/view_frame"
-        android:visibility="gone" />
+        <TextView
+            android:id="@+id/third_ribbon"
+            android:layout_width="@dimen/ribbon_width"
+            android:layout_height="@dimen/ribbon_height"
+            android:layout_marginEnd="@dimen/ribbon_space"
+            android:background="@drawable/view_frame_transparent"
+            android:text="@string/_1"
+            android:textColor="#00000000" />
 
 
-    <TextView
-        android:text="@string/_1"
-        android:textColor="#00000000"
-        android:id="@+id/sixth_ribbon"
-        android:layout_width="@dimen/ribbon_width"
-        android:layout_height="@dimen/ribbon_height"
-        android:layout_marginEnd="@dimen/ribbon_space"
-        android:background="@drawable/view_frame"
-        android:visibility="gone" />
+        <TextView
+            android:id="@+id/fourth_ribbon"
+            android:layout_width="@dimen/ribbon_width"
+            android:layout_height="@dimen/ribbon_height"
+            android:layout_marginEnd="@dimen/ribbon_space"
+            android:background="@drawable/view_frame_transparent"
+            android:text="@string/_1"
+            android:textColor="#00000000" />
+
+
+        <TextView
+            android:id="@+id/fifth_ribbon"
+            android:layout_width="@dimen/ribbon_width"
+            android:layout_height="@dimen/ribbon_height"
+            android:layout_marginEnd="@dimen/ribbon_space"
+            android:background="@drawable/view_frame_transparent"
+            android:text="@string/_1"
+            android:textColor="#00000000"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/sixth_ribbon"
+            android:layout_width="@dimen/ribbon_width"
+            android:layout_height="@dimen/ribbon_height"
+            android:layout_marginEnd="@dimen/ribbon_space"
+            android:background="@drawable/view_frame_transparent"
+            android:text="@string/_1"
+            android:textColor="#00000000"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="10dp"
+        android:background="#817E83" />
 </LinearLayout>
