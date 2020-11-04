@@ -12,7 +12,7 @@
         android:layout_marginBottom="@dimen/button_space"
         android:background="@drawable/view_frame_yellow"
         android:text="@string/yellow"
-        android:textColor="@color/white_text" />
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/green"

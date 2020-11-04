@@ -40,7 +40,7 @@
         android:layout_marginBottom="@dimen/button_space"
         android:background="@drawable/view_frame_gold"
         android:text="@string/gold"
-        android:textColor="@color/white_text" />
+        android:textColor="@color/black" />
 
 
 </LinearLayout>

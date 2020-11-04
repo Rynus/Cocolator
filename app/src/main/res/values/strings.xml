@@ -20,4 +20,6 @@
     <string name="_1">1</string>
     <string name="delete">DELETE</string>
     <string name="clear">CLEAR</string>
+    <string name="credit">Thanks to</string>
+    <string name="thanks_to">thanks_to, nex button developer, google, intelliJ, Kelas terbuka, etc</string>
 </resources>

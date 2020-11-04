@@ -9,9 +9,9 @@
     <color name="white_text">#FFFFFF</color>
 
     <!--    Button Color-->
-    <color name="black">#000000</color>
-    <color name="brown">#514223</color>
-    <color name="red">#FF0000</color>
+    <color name="black">#2B2929</color>
+    <color name="brown">#6A5A37</color>
+    <color name="red">#BC2727</color>
     <color name="orange">#CF8313</color>
     <color name="yellow">#FFEB3B</color>
     <color name="green">#4CAF50</color>
@@ -22,8 +22,4 @@
     <color name="black_text">#000000</color>
     <color name="gold">#FFD700</color>
     <color name="silver">#C0C0C0</color>
-
-    <!--    transparent-->
-
-
 </resources>
